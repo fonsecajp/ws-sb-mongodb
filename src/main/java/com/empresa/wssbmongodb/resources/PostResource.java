@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.empresa.wssbmongodb.domain.Post;
-import com.empresa.wssbmongodb.dto.UserDTO;
 import com.empresa.wssbmongodb.services.PostService;
 
 @RestController

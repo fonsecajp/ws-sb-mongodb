@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.empresa.wssbmongodb.domain.Post;
-import com.empresa.wssbmongodb.domain.User;
 import com.empresa.wssbmongodb.repository.PostRepository;
 import com.empresa.wssbmongodb.services.exception.ObjectNotFoundException;
 
