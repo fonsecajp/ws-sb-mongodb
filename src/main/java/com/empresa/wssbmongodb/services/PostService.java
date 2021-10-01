@@ -1,6 +1,5 @@
 package com.empresa.wssbmongodb.services;
 
-import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,8 +19,11 @@ public class PostService {
 		Optional<Post> obj = postRepository.findById(id);
 		return obj.orElseThrow(() -> new ObjectNotFoundException("Objeto não encontrado"));
 	}
+<<<<<<< HEAD
 	
 	public List<Post> findByTitle(String text){
 		return postRepository.searchTitle(text);
 	}
+=======
+>>>>>>> bda7931ed228055377fc377764685544c83cd874
 }
